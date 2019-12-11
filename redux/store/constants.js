@@ -1,0 +1,175 @@
+
+const BASE_PATH = 'app/markets'
+
+/**
+ *
+ * all markets
+ *
+ */
+
+export const MARKET = `${BASE_PATH}/MARKET`
+export const MARKET_SUCCESS = `${BASE_PATH}/MARKET_SUCCESS`
+export const MARKET_ERROR = `${BASE_PATH}/MARKET_ERROR`
+export const MARKET_NO_DATA = `${BASE_PATH}/MARKET_NO_DATA`
+/**
+ *
+ * single market
+ *
+ */
+
+export const SINGLE_MARKET = `${BASE_PATH}/SINGLE_MARKET`
+export const SINGLE_MARKET_SUCCESS = `${BASE_PATH}/SINGLE_MARKET_SUCCESS`
+export const SINGLE_MARKET_NO_DATA = `${BASE_PATH}/SINGLE_MARKET_NO_DATA`
+export const SINGLE_MARKET_ERROR = `${BASE_PATH}/SINGLE_MARKET_ERROR`
+/**
+ *
+ * market results
+ *
+ */
+
+export const MARKET_RESULT = `${BASE_PATH}/MARKET_RESULT`
+export const MARKET_RESULT_SUCCESS = `${BASE_PATH}/MARKET_RESULT_SUCCESS`
+export const MARKET_RESULT_NO_DATA = `${BASE_PATH}/MARKET_RESULT_NO_DATA`
+export const MARKET_RESULT_ERROR = `${BASE_PATH}/MARKET_RESULT_ERROR`
+/**
+ *
+ * calls to action
+ *
+ */
+
+export const ACTION = `${BASE_PATH}/ACTION`
+export const ACTION_SUCCESS = `${BASE_PATH}/ACTION_SUCCESS`
+export const ACTION_NO_DATA = `${BASE_PATH}/ACTION_NO_DATA`
+export const ACTION_ERROR = `${BASE_PATH}/ACTION_ERROR`
+
+/**
+ *
+ * Add market
+ *
+ */
+
+export const ADD_MARKET = `${BASE_PATH}/ADD_MARKET`
+export const ADD_MARKET_SUCCESS = `${BASE_PATH}/ADD_MARKET_SUCCESS`
+export const ADD_MARKET_ERROR = `${BASE_PATH}/ADD_MARKET_ERROR`
+
+/**
+ *
+ * to get list of participants
+ *
+ */
+
+export const PARTICIPANTS = `${BASE_PATH}/PARTICIPANTS`
+export const PARTICIPANTS_SUCCESS = `${BASE_PATH}/PARTICIPANTS_SUCCESS`
+export const PARTICIPANTS_NO_DATA = `${BASE_PATH}/PARTICIPANTS_NO_DATA`
+export const PARTICIPANTS_ERROR = `${BASE_PATH}/PARTICIPANTS_ERROR`
+
+/**
+ *
+ * list of reports
+ *
+ */
+
+export const REPORT = `${BASE_PATH}/REPORT`
+export const REPORT_SUCCESS = `${BASE_PATH}/REPORT_SUCCESS`
+export const REPORT_NO_DATA = `${BASE_PATH}/REPORT_NO_DATA`
+export const REPORT_ERROR = `${BASE_PATH}/REPORT_ERROR`
+
+/**
+ *
+ * Csv records
+ *
+ */
+
+export const CSV = `${BASE_PATH}/CSV`
+export const CSV_SUCCESS = `${BASE_PATH}/CSV_SUCCESS`
+export const CSV_NO_DATA = `${BASE_PATH}/CSV_NO_DATA`
+export const CSV_ERROR = `${BASE_PATH}/CSV_ERROR`
+
+/**
+ *
+ * Send Mail
+ *
+ */
+
+ export const MAIL = `${BASE_PATH}/MAIL`
+ export const MAIL_SUCCESS = `${BASE_PATH}/MAIL_SUCCESS`
+ export const MAIL_NO_DATA = `${BASE_PATH}/MAIL_NO_DATA`
+ export const MAIL_ERROR = `${BASE_PATH}/MAIL_ERROR`
+
+/**
+ *
+ * delete market
+ *
+ */
+
+ export const MARKET_DELETE = `${BASE_PATH}/MARKET_DELETE`
+ export const MARKET_DELETE_SUCCESS = `${BASE_PATH}/MARKET_DELETE_SUCCESS`
+ export const MARKET_DELETE_NO_DATA = `${BASE_PATH}/MARKET_DELETE_NO_DATA`
+ export const MARKET_DELETE_ERROR = `${BASE_PATH}/MARKET_DELETE_ERROR`
+
+/**
+ *
+ * start market
+ *
+ */
+
+ export const MARKET_START = `${BASE_PATH}/MARKET_START`
+ export const MARKET_START_SUCCESS = `${BASE_PATH}/MARKET_START_SUCCESS`
+ export const MARKET_START_NO_DATA = `${BASE_PATH}/MARKET_START_NO_DATA`
+ export const MARKET_START_ERROR = `${BASE_PATH}/MARKET_START_ERROR`
+
+/**
+ *
+ * end market
+ *
+ */
+
+ export const MARKET_END = `${BASE_PATH}/MARKET_END`
+ export const MARKET_END_SUCCESS = `${BASE_PATH}/MARKET_END_SUCCESS`
+ export const MARKET_END_NO_DATA = `${BASE_PATH}/MARKET_END_NO_DATA`
+ export const MARKET_END_ERROR = `${BASE_PATH}/MARKET_END_ERROR`
+
+/**
+ *
+ * Validating URL
+ *
+ */
+
+ export const VALIDATE = `${BASE_PATH}/VALIDATE`
+ export const VALIDATE_SUCCESS = `${BASE_PATH}/VALIDATE_SUCCESS`
+ export const VALIDATE_NO_DATA = `${BASE_PATH}/VALIDATE_NO_DATA`
+ export const VALIDATE_ERROR = `${BASE_PATH}/VALIDATE_ERROR`
+/**
+ *
+ * Market Participant
+ *
+ */
+
+ export const MARKET_PARTICIPANT = `${BASE_PATH}/MARKET_PARTICIPANT`
+ export const MARKET_PARTICIPANT_SUCCESS = `${BASE_PATH}/MARKET_PARTICIPANT_SUCCESS`
+ export const MARKET_PARTICIPANT_NO_DATA = `${BASE_PATH}/MARKET_PARTICIPANT_NO_DATA`
+ export const MARKET_PARTICIPANT_ERROR = `${BASE_PATH}/MARKET_PARTICIPANT_ERROR`
+/**
+ *
+ * Market Collaborators
+ *
+ */
+ export const MARKET_COLLABORATORS = `${BASE_PATH}/MARKET_COLLABORATORS`
+ export const MARKET_COLLABORATORS_SUCCESS = `${BASE_PATH}/MARKET_COLLABORATORS_SUCCESS`
+ export const MARKET_COLLABORATORS_ERROR = `${BASE_PATH}/MARKET_COLLABORATORS_ERROR`
+
+ /**
+ *
+ * Market Collaborators
+ *
+ */
+ export const ADD_COLLABORATOR = `${BASE_PATH}/ADD_COLLABORATOR`
+ export const ADD_COLLABORATOR_SUCCESS = `${BASE_PATH}/ADD_COLLABORATOR_SUCCESS`
+ export const ADD_COLLABORATOR_ERROR = `${BASE_PATH}/ADD_COLLABORATOR_ERROR`/**
+ *
+ * Market Collaborators
+ *
+ */
+ export const UPDATE_COLLABORATOR = `${BASE_PATH}/UPDATE_COLLABORATOR`
+ export const UPDATE_COLLABORATOR_SUCCESS = `${BASE_PATH}/UPDATE_COLLABORATOR_SUCCESS`
+ export const UPDATE_COLLABORATOR_ERROR = `${BASE_PATH}/UPDATE_COLLABORATOR_ERROR`
